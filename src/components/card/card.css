@@ -1,0 +1,159 @@
+.cont-card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.card {
+    background: url('../../img/backgroundCard.png') #f6f1e0;
+    width: 720px;
+    height: auto;
+    min-height: 400px;
+    border: 3px solid #765738;
+    filter: drop-shadow(-2px -2px 1px rgba(0, 0, 0, 0.5));
+    border-radius: 25px;
+}
+.card--first {
+    position: relative;
+    padding: 10px;
+}
+.card--show {
+    animation: showLeft 1s;
+}
+.card--leave {
+    animation: leaveRight 1s forwards;
+}
+@keyframes showLeft {
+    from {
+        left: -200%;
+        transform: rotate(315deg);
+    }
+
+    to {
+        left: 0;
+        transform: rotate(360deg);
+    }
+}
+@keyframes leaveRight {
+    from {
+        right: 0;
+        transform: rotate(0deg);
+    }
+
+    to {
+        right: -200%;
+        transform: rotate(45deg);
+    }
+}
+
+.card--back {
+    position: absolute;
+    height: 100%;
+}
+.card--second {
+    z-index: -1;
+    left: -10px;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card--third {
+    z-index: -2;
+    left: -20px;
+    top: -20px;
+}
+.center-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.card__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+}
+.card__footer p {
+    cursor: pointer;
+}
+
+.cont-answer {
+}
+.answer {
+    display: flex;
+    padding: 0px 11px 0px 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.answer--hover:hover {
+    border: 1px solid #aa7f53;
+}
+.answer--correct {
+    border: 1px solid #009e82;
+}
+.answer--incorrect {
+    border: 1px solid #d90f0f;
+}
+.answer__checked {
+    border: 1px solid #765738;
+}
+.answer input {
+    display: none;
+}
+.checkbox {
+    display: flex;
+    border: 3px solid #765738;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.checkbox--correct {
+    border: 3px solid #009e82;
+}
+.checkbox--incorrect {
+    border: 3px solid #d90f0f;
+}
+.checkbox__checked {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.checkbox__checked--answer {
+    background: #765738;
+}
+.checkbox__checked--correct {
+    background: #009e82;
+}
+.checkbox__checked--incorrect {
+    background: #d90f0f;
+}
+.answer p {
+    max-width: 630px;
+    margin-left: 10px;
+}
+
+.card__button {
+    text-align: center;
+    margin-top: 5px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.empty-button {
+    height: 94px;
+}
+.reload-card:hover {
+    cursor: pointer;
+}

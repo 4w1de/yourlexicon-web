@@ -1,0 +1,99 @@
+.jura {
+    font-family: 'Jura', Arial, Helvetica, sans-serif;
+}
+/*  Size  */
+.fs80 {
+    font-size: 80px;
+    line-height: 80px;
+}
+.fs64 {
+    font-size: 64px;
+    line-height: 64px;
+}
+.fs48 {
+    font-size: 48px;
+    line-height: 48px;
+}
+.fs40 {
+    font-size: 40px;
+    line-height: 40px;
+}
+.fs36 {
+    font-size: 36px;
+    line-height: 36px;
+}
+.fs32 {
+    font-size: 32px;
+    line-height: 32px;
+}
+.fs28 {
+    font-size: 28px;
+    line-height: 28px;
+}
+.fs26 {
+    font-size: 26px;
+    line-height: 26px;
+}
+.fs24 {
+    font-size: 24px;
+    line-height: 24px;
+}
+.fs22 {
+    font-size: 22px;
+    line-height: 22px;
+}
+.fs20 {
+    font-size: 20px;
+    line-height: 20px;
+}
+.fs18 {
+    font-size: 18px;
+    line-height: 18px;
+}
+.fs16 {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+/*  Weight  */
+.fw900 {
+    font-weight: 900;
+}
+.fw800 {
+    font-weight: 800;
+}
+.fw700 {
+    font-weight: 700;
+}
+.fw600 {
+    font-weight: 600;
+}
+.fw500 {
+    font-weight: 500;
+}
+.fw400 {
+    font-weight: 400;
+}
+.fw300 {
+    font-weight: 300;
+}
+.fw200 {
+    font-weight: 200;
+}
+.fw100 {
+    font-weight: 100;
+}
+
+/*  Align  */
+.taCenter {
+    text-align: center;
+}
+.taStart {
+    text-align: start;
+}
+.taEnd {
+    text-align: end;
+}
+.taJustify {
+    text-align: justify;
+}

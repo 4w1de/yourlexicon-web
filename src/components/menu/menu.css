@@ -1,0 +1,94 @@
+.cont-burger {
+    cursor: pointer;
+    height: 41px;
+    display: flex;
+    align-items: center;
+}
+.burger {
+    width: 60px;
+    height: 7px;
+    background-color: #483f36;
+}
+.burger::after,
+.burger::before {
+    content: '';
+    position: relative;
+    background-color: #483f36;
+    font-size: 6px;
+    padding-left: 60px;
+}
+.burger::after {
+    top: 8px;
+    right: 60px;
+}
+.burger::before {
+    top: -26px;
+}
+.closeMenu {
+    width: 60px;
+    height: 7px;
+    background-color: #483f36;
+}
+.closeMenu::after,
+.closeMenu::before {
+    content: '';
+    position: relative;
+    background-color: #483f36;
+    font-size: 7px;
+    padding-left: 60px;
+}
+.closeMenu::after {
+    top: 10px;
+    right: 60px;
+}
+.closeMenu::before {
+    top: -26px;
+}
+
+.shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    z-index: 998;
+}
+.menu {
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background-color: #f0e8d2;
+    top: 0;
+    right: -420px;
+    border-left: 3px solid #765738;
+    transition: right 0.4s;
+    padding: 36px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-is-open {
+    right: 0px;
+    z-index: 999;
+}
+.close-icon {
+    cursor: pointer;
+    margin-bottom: 37px;
+}
+.list-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-a {
+    text-decoration: none;
+    margin-top: 30px;
+}
+.menu-a p:hover {
+    color: #85470d !important;
+}
+.menu-a--group {
+    margin-top: 100px;
+}

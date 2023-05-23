@@ -1,0 +1,25 @@
+.cont-input {
+    margin-top: 18px;
+}
+.cont-input:first-child {
+    margin-top: 0px;
+}
+
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: #483f36 !important;
+    font-size: 32px !important;
+    line-height: 32px !important;
+}
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #483f36 !important;
+}
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 3px solid #483f36 !important;
+}
+.css-l4u8b9-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 3px solid #363029 !important;
+}
+.css-l4u8b9-MuiInputBase-root-MuiInput-root {
+    color: #483f36 !important;
+    font-size: 32px !important;
+}

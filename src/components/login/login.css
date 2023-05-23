@@ -1,0 +1,16 @@
+.cont-login {
+    margin: 80px auto 0px;
+    width: 500px;
+    height: auto;
+    padding: 10px 75px 50px;
+    background: #f0e8d2;
+}
+.inputs {
+    margin: 98px 0 90px;
+}
+.switches {
+}
+.switch-form {
+    display: block;
+    margin-top: 15px;
+}
